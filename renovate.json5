@@ -1,0 +1,54 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base"
+  ],
+  "assignees": [
+    "hamzaibnfarooq",
+  ],
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["flake8-*"],
+      "groupName": "flake8 packages",
+      "matchPaths": ["requirements-dev.txt"],
+      "enabled": true
+    },
+    {
+      "matchPackagePatterns": ["types-*"],
+      "groupName": "types packages",
+      "matchPaths": ["requirements-dev.txt"],
+      "enabled": true
+    },
+    {
+      "excludePackageNames": [
+        "beautifulsoup4",
+        "facebook-business",
+        "google-ads",
+        "google-api-python-client",
+        "numpy",
+        "openpyxl",
+        "pandas",
+        "rq",
+        "rq-scheduler",
+        "selenium",
+        "twitter-ads",
+        "xlrd",
+      ],
+      "matchLanguages": ["python"],
+      "matchPaths": ["requirements.txt", "requirements-dev.txt"],
+      "enabled": true,
+    },
+  ],
+   "schedule": [
+        "after 1pm on Thursday",
+        "before 1pm",
+        "after 10pm every weekday",
+        "before 5am every weekday",
+        "every weekend",
+      ],
+  // "platformAutomerge": true,
+  "rebaseWhen": "behind-base-branch",
+  "rollbackPrs": true,
+  "dependencyDashboard": true,
+  "dependencyDashboardAutoclose": true,
+}
