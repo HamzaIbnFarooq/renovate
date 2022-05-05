@@ -40,8 +40,8 @@
     },
   ],
    "schedule": [
-        "after 1pm on Thursday",
-        "before 1pm",
+        "after 2pm on Thursday",
+        "before 2pm",
         "after 10pm every weekday",
         "before 5am every weekday",
         "every weekend",
