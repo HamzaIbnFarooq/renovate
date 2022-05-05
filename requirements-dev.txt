@@ -1,0 +1,29 @@
+-r requirements.txt
+
+# Tests
+freezegun==1.1.0
+mock==4.0.3
+pytest-asyncio==0.18.1
+pytest-httpserver==1.0.4
+pytest==7.0.0
+requests-mock==1.9.3
+respx==0.19.2
+
+# Linters
+isort==5.10.1
+mccabe==0.6.1
+mypy==0.910
+flake8==4.0.1
+flake8-blind-except==0.2.0
+flake8-bugbear==22.1.11
+flake8-builtins==1.5.3
+types-mock==4.0.10
+types-python-dateutil==2.8.9
+types-pytz==2021.3.4
+types-redis==4.1.15
+types-requests==2.27.10
+types-retry==0.9.5
+types-six==1.16.10
+
+# Git
+pre-commit==2.17.0
