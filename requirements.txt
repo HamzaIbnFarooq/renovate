@@ -11,6 +11,6 @@ urllib3==1.26.8
 xmltodict==0.12.0
 
 # Networks
-facebook-business==12.0.0
+facebook-business==13.0.0
 google-ads==14.0.1
 twitter-ads==10.0.0
