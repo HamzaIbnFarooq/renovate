@@ -8,7 +8,7 @@ openpyxl==3.0.9
 selenium==3.141.0
 sentry-sdk==1.5.5
 urllib3==1.26.8
-xmltodict==0.12.0
+xmltodict==0.13.0
 
 # Networks
 facebook-business==12.0.0
